@@ -1,0 +1,54 @@
+/* Căn giữa toàn bộ container trên trang */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Căn giữa nội dung của Search Header */
+.search-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho container */
+.search-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho input */
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* Định dạng cho danh sách các mục */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Định dạng cho tiêu đề */
+h6 {
+    font-size: 24px;
+    color: #007bff;
+}
